@@ -23,7 +23,15 @@ const recipes = [
       description:
         "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.",
     },
-  
+    {
+      id:4 ,
+      title: "Garlic Bread",
+      price: 7.99,
+      image: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Garlic_bread_at_office_cafe_%2838538267932%29.jpg",
+      description:
+        "a local favrotie, served with warm marinanra sauce.",
+    }
+                
   ];
   
   export default recipes;

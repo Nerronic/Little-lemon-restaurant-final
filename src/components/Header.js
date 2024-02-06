@@ -10,12 +10,13 @@ export default class Header extends Component {
           <div className="banner">
             <h2> Little Lemon</h2>
             <h3> Chicago</h3>
-            <p> We are a family-owned Mediterranean restaurant, focus, on traditiona; recipes served with a 
-                modern twist
+            <p> We are a family-owned Mediterranean restaurant, focused on traditional recipes served with a 
+                modern twist. 
+                <br></br>Order today!
             </p>
             <Link to="/booking"> <button aria-label="On Click"> Reserve Now</button></Link>
           </div>
-          {/* banner imagehe*/}
+          {/* banner imagee*/}
           <div className="banner-img">
             <img src={bannerImg} alt=""/>
           </div>
