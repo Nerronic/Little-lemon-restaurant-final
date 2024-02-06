@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 /* booking form  below*/
-const BookingForm = () => {
+const BookingForm = (props) => {
   const [date, setDate] = useState("");
   const [times, setTimes] = useState("");
   const [guests, setGuest] = useState("");
-  const [occassion, setOccassion] = useState("");
+  const [occasion, setOccasion] = useState("");
 
-  {/*handle submit inputs*/}
+ 
   const handelSubmit = (e) => {
     e.preventDefault();
     props.SubmitForm(e);
@@ -50,7 +50,7 @@ const BookingForm = () => {
             {/**Occanssion field */}
             <div>
                 <label htmlFor="book-occasion"> Occasion:</label>
-                <select id="book-occassion" key={occassion} value={occassion} onChange={e=> setOccassion (e.target.value)}>
+                <select id="book-occassion" key={occasion} value={occasion} onChange={e=> setOccasion (e.target.value)}>
                     <option>Birthday</option>
                     <option>Anniverssary</option>
                     </select>

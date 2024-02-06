@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import Headers from './components/Header';
-import Nav from "./components/Nav"
-import BookingForm from "./components/BookingForm";
+import Main from "./components/Main";
+import Nav from "./components/Nav";
 function App() {
   return (
  <>
 
     <Nav/>
-<Headers/>    
-<BookingForm/>
+    <Main/>
+{/* <Header/>     */}
+{/* <BookingForm/> */}
      </>
   )
 }
